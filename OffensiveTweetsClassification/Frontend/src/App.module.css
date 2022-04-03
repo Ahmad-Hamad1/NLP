@@ -1,0 +1,163 @@
+.header {
+  width: 100%;
+}
+
+.list,
+.box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  margin: 1rem 0;
+}
+
+.box {
+  width: 50vw;
+  height: 25vw;
+  flex-grow: 0;
+  border-radius: 50px;
+  background-color: #7689de;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.inputs {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs label,
+.inputs select {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 75%;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+}
+
+.inputs label {
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.inputs select:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.buttons button,
+.tryAgain {
+  border: unset;
+  outline: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.buttons button:hover,
+.tryAgain:hover {
+  cursor: pointer;
+}
+
+.buttons button:active,
+.tryAgain:active {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) inset;
+}
+
+.buttons button:first-child {
+  width: 50%;
+}
+
+.buttons button:last-child {
+  width: 75%;
+}
+
+.tryAgain {
+  width: 20vw;
+  font-size: 1.4rem;
+  font-family: cursive;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+.text {
+  width: 39vw;
+  height: 30vh;
+  border-radius: 5px;
+  direction: rtl;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  resize: none;
+  outline: none;
+}
+
+.textAnswer {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.offensive {
+  color: #f00;
+}
+
+.notOffensive {
+  color: #008000;
+}
+
+.modelName{
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+.feature{
+    width: 30vw;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.featureName{
+    padding-left: 2.4rem;
+}
+
+.infoTable {
+  width: 30vw;
+  padding: 1rem;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.infoTable caption {
+  padding: 1rem;
+  font-weight: 800;
+  font-size: 1.3rem;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.infoTable th,
+.infoTable td {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #000;
+}
